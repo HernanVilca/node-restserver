@@ -10,7 +10,7 @@ const app = express();
 
 
 
-app.get('/usuario', verificaToken, (req, res) => {
+app.get('/usuario', (req, res) => {
 
 
 
